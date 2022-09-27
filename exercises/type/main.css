@@ -24,6 +24,10 @@
     margin: 0 auto;
 }
 
+.heading{
+    text-align: center;
+}
+
 body {
 	font-family: 'Big Caslon FB', serif;
 }
