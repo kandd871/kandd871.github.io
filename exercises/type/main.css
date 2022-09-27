@@ -1,0 +1,19 @@
+body{
+	font-family: 'Crimson Text', serif;;
+}
+
+.content{
+	font-family: 'Crimson Text', serif;;
+}
+
+h1{
+	font-size: 60px;
+}
+
+h2{
+	font-size: 45px;
+}
+
+h1, h2{
+	font-weight: 400;
+}
