@@ -31,13 +31,19 @@ header{
     font-size: 150px;
     font-style: normal;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 
 }
-.bottom{
-    border-bottom: 1px solid #2f2f2f;  
+
+.welcome:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 1050px;
+    height: 10px;
+    display: block;
     margin: 0 auto;
 }
+
 
 .head, .welcome, .subhead{
     text-align: center;
@@ -68,9 +74,6 @@ header{
     border-bottom: 2px solid #2f2f2f
 }
 
-.welcome{
-
-}
 
 .column {
   float: left;
@@ -263,6 +266,11 @@ text-align: left;
     color: #f9f7f1;
     background-color: #2f2f2f; 
 }
-#hence{
-    padding-top: 50px;
+#life{
+margin-bottom: -2px;
+}
+
+.fire{
+    background: url(fire.gif) repeat-x;
+    height: 200px;
 }
