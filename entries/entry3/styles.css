@@ -102,9 +102,6 @@ header{
 
 }
 
-.item2{
-    border: 2px solid #2f2f2f;
-}
 
 .h1{
     font-family: 'Playfair Display', serif;
@@ -168,7 +165,7 @@ header{
     font-size: 40px;
     font-style: normal;
     display: block;
-    margin-bottom: -40px;
+    
     color: #f9f7f1;
     background-color: #2f2f2f; 
 }
@@ -177,10 +174,12 @@ header{
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     font-style: italic;
-    font-size: 56px;
+    font-size: 54px;
     text-transform: uppercase;
-
+    position: relative;
+    top: -20px;
 }
+
 
 img{
     width: 500px;
@@ -203,7 +202,9 @@ img{
 }
 
 #img1 {
-border: 2px solid;
+border: 2.5px solid;
+border-style: double;
+
 
 }
 
@@ -240,7 +241,7 @@ text-align: left;
 }
 #church{
     font-size: 24px;
-    margin-top: -40px;
+    margin-top: -60px;
 }
 #church:after{
     border-bottom: 1px solid #2f2f2f;
@@ -258,6 +259,7 @@ text-align: left;
     display: block;
     margin: 0 auto;
     margin-bottom: 12px;
+
 }
 #burn{
    font-family: franklin-gothic-atf,sans-serif;
@@ -268,9 +270,18 @@ text-align: left;
     margin: 15px;
     color: #f9f7f1;
     background-color: #2f2f2f; 
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 #life{
 margin-bottom: -2px;
+}
+
+
+.so{
+    border: 2px solid #2f2f2f;
+    padding: 5px;
+    padding-top: 0px;
 }
 
 .fire{
