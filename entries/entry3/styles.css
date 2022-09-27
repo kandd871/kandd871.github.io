@@ -102,6 +102,9 @@ header{
 
 }
 
+.item2{
+    border: 2px solid #2f2f2f;
+}
 
 .h1{
     font-family: 'Playfair Display', serif;
