@@ -13,6 +13,14 @@ h1 {
 	color: white;
 	mix-blend-mode: exclusion;
 }
+
+h2{
+	font-size: 1.25vw;
+	color: white;
+	bottom: -14.5vh;
+	position: relative;
+	mix-blend-mode: exclusion;
+}
 .graphics{
 	display: flex;
 	flex-wrap: row;
@@ -65,10 +73,6 @@ h1 {
 	position: relative;
 	left: -30vw;
 }
-
-	body{
-	overflow: auto;
-	}
 }
 
 @media screen and (max-width:  1370px){
@@ -100,7 +104,7 @@ h1 {
 	.one {
 		opacity: 1;
 	}
-	h1, .gun{
+	.gun, h2{
 		opacity: 0;
 	}
 }
@@ -110,6 +114,9 @@ h1 {
 		opacity: 1;
 	}
 	.one {
+		opacity: 0;
+	}
+	h1{
 		opacity: 0;
 	}
 }
