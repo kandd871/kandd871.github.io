@@ -1,0 +1,194 @@
+body{
+	text-align: center;
+	font-family: impact;
+	background-image: url('flag1.jpeg');
+}
+
+
+h1 {
+	font-family: impact;
+	font-size: 11vw;
+	margin-bottom: -10vw;
+	margin-top: 1vw;
+	color: white;
+	mix-blend-mode: exclusion;
+}
+.graphics{
+	display: flex;
+	flex-wrap: row;
+}
+
+.bulletimg{
+	height: 20%;
+	width: 20%;
+	position: relative;
+	margin-top: 11vh;
+	display: inline-block;
+	opacity: 0;
+}
+
+.gunimg{
+	width: 60%;
+	position: absolute;
+	right: 5vw;
+	mix-blend-mode: exclusion;
+}
+
+.victims{
+	font-family: new-spirit-condensed,serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 14vw;
+	margin: 3vw;
+	background-color: #dc143c;
+	color: #56aba1;
+	opacity: 0;
+	mix-blend-mode: exclusion;
+}
+
+.stats{
+	font-family: new-spirit-condensed,serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 3.5vw;
+	opacity: 0;
+	margin: 4vw;
+	display: inline-block;
+}
+
+@media screen and (max-width:  1400px){
+	.gun{
+		opacity: 0;
+	}
+
+	.gunimg{
+	position: relative;
+	left: -30vw;
+}
+
+	body{
+	overflow: auto;
+	}
+}
+
+@media screen and (max-width:  1370px){
+	.gunimg{
+		position: relative;
+	left: -20vw;
+}
+
+}
+
+@media screen and (max-width:  1350px){
+	.gunimg{
+		position: relative;
+	left: -15vw;
+	}
+}
+
+@media screen and (max-width:  1340px){
+	body{
+		background-color: #dc143c;
+		background-image: url('');
+	}
+
+	.gunimg{
+	position: relative;
+	left: -8vw;
+}
+
+	.one {
+		opacity: 1;
+	}
+	h1, .gun{
+		opacity: 0;
+	}
+}
+
+@media screen and (max-width: 1260px){
+	.two {
+		opacity: 1;
+	}
+	.one {
+		opacity: 0;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.three {
+		opacity: 1;
+	}
+	.two {
+		opacity: 0;
+	}
+}
+
+@media screen and (max-width: 1160px){
+	.four {
+		opacity: 1;
+	}
+	.three {
+		opacity: 0;
+	}
+}
+
+@media screen and (max-width: 1150px){
+	.four {
+		opacity: 0;
+	}
+}
+
+@media screen and (max-width: 1140px){
+	html{	
+	background-image: url('news.png');
+	background-size: contain;
+}
+
+body{
+	background-color: transparent;
+}
+
+
+.gunimg{
+	position: relative;
+	float-right: ;
+	right: -100vw;
+	margin: 0;
+}
+
+p{
+	background-color: #dc143c;
+	color: #56aba1;
+}
+
+.victims{
+	opacity: 1;
+	position: relative;
+	top: -80vh;
+}
+
+.victims:hover{
+	mix-blend-mode: normal;
+}
+
+.stats{
+	opacity: 1;
+	position: relative;
+	top: -80vh;
+	width: 50%;
+}
+
+.stats:hover{
+	mix-blend-mode: exclusion;
+}
+}
+
+@media screen and (max-width: 500px){
+	.victims{
+	opacity: 0;
+}
+	.stats{
+	opacity: 0;
+}
+}
+
