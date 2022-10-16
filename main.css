@@ -30,3 +30,13 @@ a:hover {
   background-color: yellow;
   color: magenta;
 }
+
+.begin{
+  text-align: center;
+  font-family: helvetica;
+  font-size: 50px;
+}
+
+.begin:hover{
+  
+}

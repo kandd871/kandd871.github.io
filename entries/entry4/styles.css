@@ -1,31 +1,54 @@
+header{
+  display: inline-flex;
+  background-color: magenta;
+  width: 100%;
+  justify-content: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 14px;
+}
+
+a{
+font-family: helvetica;
+text-decoration: none;
+}
+
+a:hover{
+color: magenta;
+background-color: yellow;
+}
+
+.home{
+  margin-left: 590px;
+  margin-right: 590px;
+}
+
 
 body{
-	background-image: url('bg.jpeg');
+	background-image: url('bg.jpg');
 	background-size: contain;
 	min-width: 1400px;
-	overflow-x: hidden;
 	margin-left: 50px;
 }
 
 .a{
-	background-color: #c764fc;
+	background-color: #9cc5cd;
 	color: #514733;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
 .a:hover{
-	color: #c764fc;
-	background-color: #514733;
-}
+	color: #9cc5cd;
+	background-color: #514733;}
 
 .b:hover{
-	background-color: #c764fc;
+	background-color: #9cc5cd;
 	color: #514733;
 }
 
 .b{
-	color:  #c764fc;
+	color:  #9cc5cd;
 	background-color: #514733;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -54,7 +77,7 @@ p{
 	background-color: black;
 	color: white;
 	width: 60%;
-	background-color: #c764fc;
+	background-color: #9cc5cd;
 	color: #514733;
 
 }
@@ -84,10 +107,12 @@ p{
 
 .art:hover .overlay {
   opacity: 90%;
+  cursor: pointer;
+
 }
 
 .text {
-  color:  #c764fc;
+  color:  #9cc5cd;
   font-size: 155px;
   font-family: americane,sans-serif;
   font-weight: 700;
@@ -168,7 +193,30 @@ img {
 }
 
 #one{
-	border: solid 5px #c764fc;
+	border: solid 5px #9cc5cd;
 }
 
+
+h2{
+	position: relative;
+	text-align: center;
+	font-family: americane,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24px;
+	color: #514733;
+	top: -2.5vh;
+}
+
+h2:hover{
+	color: #9cc5cd;
+}
+
+.sub:hover{
+	background-color: #514733;
+}
+	
+.sub{
+	padding: .5vh;
+}
 
