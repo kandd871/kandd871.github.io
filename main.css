@@ -1,5 +1,6 @@
 body{
   background-color: magenta;
+  text-align: center;
 }
 
 h1{
@@ -7,6 +8,7 @@ h1{
   font-weight: bold;
   font-size: 200px;
   text-align: center;
+  margin: 100px;
 }
 
 .subtitle{
@@ -14,10 +16,10 @@ h1{
   font-style: italic;
   font-size: 25px;
   text-align: left;
+  margin-top: 100px;
 }
 
 .entries{
-padding:  40px;
 font-size: 50px;
 }
 
@@ -32,9 +34,10 @@ a:hover {
 }
 
 .begin{
-  text-align: center;
   font-family: helvetica;
   font-size: 50px;
+  border: 1px solid white;
+  padding: 10px;
 }
 
 .begin:hover{
