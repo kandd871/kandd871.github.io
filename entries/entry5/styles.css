@@ -1,7 +1,7 @@
 
 header{
   display: inline-flex;
-  background-color: magenta;
+  background-color: #323a4c;
   width: 100%;
   justify-content: center;
   padding-top: 3px;
@@ -12,6 +12,7 @@ header{
 a{
 font-family: helvetica;
 text-decoration: none;
+color: #cec5af;
 }
 
 a:hover{

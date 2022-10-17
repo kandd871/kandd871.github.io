@@ -8,7 +8,15 @@ h1{
   font-weight: bold;
   font-size: 200px;
   text-align: center;
-  margin: 100px;
+  margin: 60px;
+}
+
+h2{
+  font-family: helvetica;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 
 .subtitle{
@@ -21,25 +29,36 @@ h1{
 
 .entries{
 font-size: 50px;
+display: block;
+text-align: center;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
+  font-family: helvetica;
 }
 
 a:hover {
   background-color: yellow;
   color: magenta;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .begin{
   font-family: helvetica;
-  font-size: 50px;
+  font-size: 66px;
   border: 1px solid white;
   padding: 10px;
+  position: relative;
 }
 
 .begin:hover{
-  
+  border: 0;
+}
+
+.abandon:hover{
+  opacity: 0;
 }
