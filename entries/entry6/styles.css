@@ -32,6 +32,16 @@ body{
 	background-color: #f7f6f6 ;
 }
 
+.banner{
+  width: 45%;
+  margin-top: -3vh;
+}
+
+.title{
+  width: 45%;
+  position: relative;
+}
+
 .container{
 	border: 4px darkblue solid;
 	border-style: double;
@@ -42,7 +52,7 @@ font-family: nautica,sans-serif;
 font-weight: 400;
 font-style: normal;
 font-size: 30vh;
-margin-top: -4vh;
+margin-top: -15vh;
 }
 
 h2{
@@ -51,7 +61,7 @@ font-weight: 1;
 font-style: normal;
 font-size: 5vh;
 text-transform: uppercase;
-margin-top: -32vh;
+margin-top: -12vh;
 margin-bottom: 10vh;
 }
 
@@ -89,7 +99,7 @@ align-items: top;
 
 .container a{
 	text-decoration: none;
-	color: blue;
+	color: darkblue;
 	cursor: alias;
 	justify-content: center;
 	background-color: white;
@@ -97,8 +107,8 @@ align-items: top;
 }
 
 .container a:hover{
-	background-color: blue;
-	border: 10px solid blue;
+	background-color: darkblue;
+	border: 10px solid darkblue;
 	border-radius: 50%;
 	color: white;
 	text-decoration: underline;
@@ -166,8 +176,6 @@ align-items: top;
 .entree{
 	perspective: 500px;
 	position: relative;
-	bottom: -3vh;
-
 }
 
 #foie{
@@ -190,6 +198,7 @@ align-items: top;
 .card {
   height: 400px;
   width: 470px;
+  left: -16vh;
   position: relative;
   transition: .5s all ease-out;
   transform: rotateY(0) scale(1);
@@ -357,15 +366,13 @@ transition: .4 all linear;
 
 .dessert{
 	position: relative;
-	top: -30vh;
+	top: -20vh;
+  margin-bottom: -5vh;
 }
 
-#des{
-
-}
 
 .three img{
-	height: 255px;
+	height: 235px;
 	justify-content: center;
 }
 
@@ -380,9 +387,107 @@ background: #f7f6f6;
 }
 
 
+#section{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  bottom: -3vh;
+}
+
+.entree, .bev{
+  width: 50%;
+ position: relative;
+}
+
+.b{
+  border-left: solid 2px #000085;
+}
+
+.bev img{
+  width: 50%;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+#i, #i2{
+  width: 55%;
+}
+
+#l, #l2{
+  width: 60%;
+}
 
 
+#j, #j2{
+  width: 45%;
+}
+#m, #m2{
+  width: 56%;
+}
 
+.fr{
+  position: absolute;
+  background-color: #f7f6f6;
+}
+.fr:hover{
+opacity: 0;
+cursor: pointer;
+}
 
+@media only screen and (max-width: 1400px){
+  .three img{
+        width: 10%;
+        height: 10%;
+}
 
+#section{
+  flex-direction: column;
+}
 
+section{
+    padding-bottom: -20vh;
+}
+
+.bev, .entree{
+  width: 100%;
+  left: 0;
+  border: 0px;
+}
+
+#i, #l,#m, #j,#k{
+  opacity: 0;
+}
+
+#i2, #l2,#m2, #j2,#k1{
+ width: 30%;
+}
+
+.b{
+  border-width: 0px;
+}
+
+span{
+  font-size: 38px;
+}
+
+h2{
+  font-size: 2em;
+}
+.static{
+  opacity: 0;
+}
+
+.dessert{
+  position: relative;
+  top: 0vh;
+  margin-bottom: 0vh;
+}
+
+.card{
+  left: 0;
+}
+}
