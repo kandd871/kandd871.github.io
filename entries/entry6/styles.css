@@ -1,0 +1,388 @@
+
+header{
+  background-color: darkblue;
+  width: 100%;
+  justify-content: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 14px;
+  margin-bottom: 2vh;
+}
+
+header a{
+font-family: helvetica;
+text-decoration: none;
+color: #f7f6f6;
+}
+
+header a:hover{
+color: magenta;
+background-color: yellow;
+cursor: alias;
+}
+
+.home{
+  margin-left: 590px;
+  margin-right: 590px;
+}
+
+body{
+	text-align: center;
+	color: darkblue;
+	background-color: #f7f6f6 ;
+}
+
+.container{
+	border: 4px darkblue solid;
+	border-style: double;
+}
+
+h1{
+font-family: nautica,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30vh;
+margin-top: -4vh;
+}
+
+h2{
+font-family: ltc-bodoni-175,serif;
+font-weight: 1;
+font-style: normal;
+font-size: 5vh;
+text-transform: uppercase;
+margin-top: -32vh;
+margin-bottom: 10vh;
+}
+
+span{
+font-family: ltc-caslon-pro,serif;
+font-weight: 400;
+font-style: italic;
+font-size: 7vh;
+}
+
+.body{
+margin-left: 13vh;
+margin-right: 13vh;
+justify-content: center;
+}
+
+p{
+font-family: articulat-heavy-cf,sans-serif;
+font-weight: 1000;
+font-style: normal;
+font-size: 36px;
+margin: 7vh;
+position: relative;
+display: flex;
+align-items: top;
+}
+
+.one img{
+	width: 20%;
+	height: 20%;
+	position: relative;
+	transition: transform .3s;
+	padding: 0.5vh;
+}
+
+.container a{
+	text-decoration: none;
+	color: blue;
+	cursor: alias;
+	justify-content: center;
+	background-color: white;
+	border-radius: 30%;
+}
+
+.container a:hover{
+	background-color: blue;
+	border: 10px solid blue;
+	border-radius: 50%;
+	color: white;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+.appetizer img:hover{
+	transform: scale(2.75);
+	z-index: 4;
+	cursor: pointer;
+}
+
+.one, .two{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#one{
+	width: 20%;
+	bottom: -3vh;
+}
+
+#two{
+	width: 17%;
+	bottom: -5vh;
+}
+
+#three{
+	width: 22%;
+}
+
+#four{
+	width: 27%;
+}
+
+#five{
+	width: 21%;
+	bottom: -13vh;
+}
+
+#six{
+	width: 27%;
+	top: -7vh;
+}
+
+#seven{
+	top: -3vh;
+	left: -2vh;
+}
+
+#eight{
+	width: 26%;
+	bottom: -3vh;
+}
+
+.two {
+	padding: 4vh;
+	margin-right: 50vh;
+	margin-left: 50vh;
+	margin-top: -5vh;
+	margin-bottom: -10vh;
+}
+
+.entree{
+	perspective: 500px;
+	position: relative;
+	bottom: -3vh;
+
+}
+
+#foie{
+	top: -10vh;
+}
+
+#beef{
+	top: -18vh;
+}
+
+#cav{
+	top: -27vh;
+}
+
+#sla{
+	top: -33vh;
+}
+
+
+.card {
+  height: 400px;
+  width: 470px;
+  position: relative;
+  transition: .5s all ease-out;
+  transform: rotateY(0) scale(1);
+}
+
+.hover-area:hover .card {
+    transform: rotateY(.5turn) scale(1);
+}
+
+
+.card > div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+}
+
+.cardfront1 {
+background: url('oyster.png');
+background-size: contain;
+transition: .4 all linear;
+}
+
+
+.cardback1 {
+  opacity: 0;
+  transition-delay: .17s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(.5turn);
+  background: url('plate1.png');
+  background-size: contain;
+}
+
+.hover-area:hover .cardback1 {
+  opacity: 1;
+  transition-delay: .17s;
+}
+
+.cardfront2 {
+background: url('foie.png');
+background-size: contain;
+background-repeat: no-repeat;
+transition: .4 all linear;
+}
+
+
+.cardback2 {
+  opacity: 0;
+  transition-delay: .17s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(.5turn);
+  background: url('plate2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hover-area:hover .cardback2 {
+  opacity: 1;
+  transition-delay: .17s;
+}
+
+.cardfront3 {
+background: url('steak.png');
+background-size: contain;
+background-repeat: no-repeat;
+transition: .4 all linear;
+}
+
+
+.cardback3 {
+  opacity: 0;
+  transition-delay: .17s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(.5turn);
+  background: url('plate3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hover-area:hover .cardback3 {
+  opacity: 1;
+  transition-delay: .17s;
+}
+
+.cardfront4 {
+background: url('frittata.png');
+background-size: contain;
+background-repeat: no-repeat;
+transition: .4 all linear;
+}
+
+
+.cardback4 {
+  opacity: 0;
+  transition-delay: .17s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(.5turn);
+  background: url('plate4.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hover-area:hover .cardback4 {
+  opacity: 1;
+  transition-delay: .17s;
+}
+
+.cardfront5 {
+background: url('burger.png');
+background-size: contain;
+background-repeat: no-repeat;
+transition: .4 all linear;
+}
+
+
+.cardback5 {
+  opacity: 0;
+  transition-delay: .17s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(.5turn);
+  background: url('plate5.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hover-area:hover .cardback5 {
+  opacity: 1;
+  transition-delay: .17s;
+}
+
+
+.cardfront6 {
+background: url('wagyu.png');
+background-size: contain;
+background-repeat: no-repeat;
+transition: .4 all linear;
+}
+
+.cardback6 {
+  opacity: 0;
+  transition-delay: .17s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(.5turn);
+  background: url('plate6.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hover-area:hover .cardback6 {
+  opacity: 1;
+  transition-delay: .17s;
+}
+
+.dessert{
+	position: relative;
+	top: -30vh;
+}
+
+#des{
+
+}
+
+.three img{
+	height: 255px;
+	justify-content: center;
+}
+
+.static {
+position: absolute;
+background: #f7f6f6;
+}
+
+.static:hover {
+  opacity:0;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
