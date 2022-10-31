@@ -1,0 +1,136 @@
+body {
+  background: #000;
+  padding-top: 17em;
+  padding-left: 8em;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+p {
+  width: 100%;
+  color: lime;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: scroll;
+  width: 0;
+  opacity: 0;
+  animation: type 3.5s steps(60, end) forwards;
+}
+
+p:nth-child(2) {
+  animation-delay: 2s;
+}
+p:nth-child(3) {
+  animation-delay: 4s;
+}
+p:nth-child(4) {
+  animation-delay: 7s;
+}
+p:nth-child(5) {
+  animation-delay: 10s;
+}
+p:nth-child(6) {
+  animation-delay: 12s;
+  margin-bottom: 25px;
+}
+p:nth-child(7) {
+  animation-delay: 14s;
+}
+p:nth-child(7) span:first-child {
+  animation-duration: 0.8s;
+}
+
+.blink {
+  animation: blink alternate-reverse 1.8s infinite 8s;
+}
+a {
+  color: lime;
+  text-decoration: none;
+  cursor: alias;
+}
+@keyframes type {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    width: 60em;
+    opacity: 1;
+    border: 0;
+  }
+}
+
+.buttons{
+  display: flex;
+  font-size: 40px;
+  animation: blink alternate-reverse 1.8s infinite 8s;
+  animation: reveal 1.8s;
+  animation-delay: 15s;
+  white-space: nowrap;
+  overflow: scroll;
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    width: 60em;
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 1px #fff, 0 0 20px #fff, 0 0 30px #f0f, 0 0 40px #0ff, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    box-shadow: 0 0 10px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.yes {
+  transition-duration: .6s;
+}
+
+.no {
+  transition-duration: .6s;
+}
+
+.yes:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+a:hover {
+  color: white;
+  transition-duration: 1s;
+}
+
+
+.no:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.yes, .no{
+  margin: 2em;
+  padding: 1vh;
+  padding-top: .5vh;
+  padding-bottom: .5vh;
+  border: .75px solid lime;
+  animation: glow 1s ease-in-out infinite alternate;
+}
