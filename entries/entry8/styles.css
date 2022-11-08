@@ -1,0 +1,161 @@
+body{
+  text-align: center;
+  background-color: beige;
+}
+button{
+font-family: bd-micronfont,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+button:hover{
+  cursor: pointer;
+}
+
+.btn1{
+  position: relative;
+  margin-top: 5em;
+  font-size: 3em;
+  background-color: blue;
+  color: magenta;
+  padding: .25em;
+}
+
+.btn1:hover{
+  background-color: magenta;
+  color: blue;
+}
+
+.btn2{
+  position: relative;
+  margin-top: 3em;
+  margin-left: 2em;
+  font-size: 5.5em;
+  background-color: yellow;
+  color: black;
+  padding: .25em;
+}
+
+.btn2:hover{
+  background-color: black;
+  color: yellow;
+}
+
+.btn3{
+  position: relative;
+  top: -4.5em;
+  margin-right: 2em;
+  font-size: 4em;
+  background-color: orange;
+  color: lightblue;
+  padding: .25em;
+}
+
+.btn3:hover{
+  background-color: lightblue;
+  color: orange;
+}
+
+.btn4{
+  position: relative;
+  top: -7.15em;
+  left: 8em;
+  font-size: 6em;
+  background-color: green;
+  color: lightpink;
+  padding: .25em;
+}
+
+.btn4:hover{
+  background-color: lightpink;
+  color: green;
+}
+
+.btn5{
+  position: relative;
+  top: -4.75em;
+  right: -5em;
+  font-size: 8em;
+  background-color: purple;
+  color: darkbrown;
+  padding: .25em;
+}
+
+.btn5:hover{
+  background-color: darkbrown;
+  color: purple;
+}
+
+.btn6{
+  position: relative;
+  top: -8em;
+  margin-left: 1em;
+  font-size: 8.5em;
+  background-color: red;
+  color: turquoise;
+  padding: .25em;
+}
+
+.btn6:hover{
+  background-color: turquoise;
+  color: red;
+}
+
+.btn7{
+  position: relative;
+  top: -5em;
+  margin-left: 1.5em;
+  font-size: 11em;
+  background-color: gray;
+  color: lightgreen;
+  padding: .25em;
+}
+
+.btn7:hover{
+  background-color: lightgreen;
+  color: gray;
+}
+
+.btn8{
+  position: relative;
+  top: -6em;
+  right: -.1em;
+  font-size: 14.75em;
+  background-color: white;
+  color: black;
+  padding: .25em;
+}
+
+.btn8:hover{
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 1400px){
+  .btn1{
+    font-size: 2em;
+  }
+  .btn2{
+    font-size: 3em;
+  }
+  .btn3{
+    font-size: 4em;
+  }
+  .btn4{
+    font-size: 5em;
+  }
+  .btn5{
+    font-size: 6em;
+  }
+  .btn6{
+    font-size: 8em;
+  }
+  .btn7{
+    font-size: 9em;
+  }
+  .btn8{
+    font-size: 10em;
+  }
+
+}
+
+
