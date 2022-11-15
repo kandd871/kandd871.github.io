@@ -9,6 +9,7 @@ var lips = document.querySelector ("#lips")
 
 function music() {
   audio.play();
+  document.body.style.backgroundSize = "initial";
   document.body.style.backgroundColor = "black";
   document.body.style.backgroundImage = "none";
   video.style.opacity = "0";
@@ -17,12 +18,15 @@ function music() {
 
 function feel(){
   audio.pause();
+  document.body.style.backgroundSize = "initial";
   document.body.style.backgroundImage = "url(feel.jpeg)";
   video.style.opacity = "0";
+  document.body.style.backgroundRepeat = "repeat";
 }
 
 function taste(){
   audio.pause();
+  document.body.style.backgroundSize = "initial";
   document.body.style.backgroundImage = "url(food.png)";
   document.body.style.backgroundSize = "contain";
   video.style.opacity = "0";
@@ -30,15 +34,16 @@ function taste(){
 
 function sight(){
   audio.pause();
+  document.body.style.backgroundSize = "initial";
   document.body.style.backgroundImage = "url(eye.gif)";
   document.body.style.backgroundSize = "contain";
-  document.body.style.backgroundRepeat = "no-repeat";
   video.style.opacity = "0";
 }
 
 function smell(){
   audio.pause();
   video.style.opacity = "1";
+  document.body.style.backgroundSize = "initial";
   document.body.style.backgroundImage = "none";
 }
 

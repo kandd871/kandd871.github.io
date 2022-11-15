@@ -14,7 +14,6 @@ body{
 }
 
 .buttons{
-	margin-top: 4vh;
 	display: flex;
 	flex-wrap: wrap;
 	position: relative;
@@ -45,16 +44,17 @@ button:hover{
 	margin-top: -10vh;
 }
 #nose{
-	width: 100%;
+	width: 60%;
 	padding-top: 4vh;
 	position: relative;
-	top: -10vh;
+	top: -20vh;
 }
 #hand{
 	width: 90%;
 }
 #ear{
 	position: relative;
-	width: 55%;
-	top: -40vh;
+	width: 35%;
+	top: -15vh;
+	right: -2vh;
 }
