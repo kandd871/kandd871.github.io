@@ -1,0 +1,60 @@
+body{
+	background-color: lightblue;
+	overflow: hidden;
+}
+
+.video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.buttons{
+	margin-top: 4vh;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+}
+
+button{
+	background: none;
+	border: none;
+	flex: 30%;
+	max-width: 40%;
+}
+
+button:active{
+	cursor: pointer;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+#eye{
+	width: 78%;
+	margin-top: -10vh;
+}
+#lips{
+	width: 70%;
+	margin-top: -10vh;
+}
+#nose{
+	width: 100%;
+	padding-top: 4vh;
+	position: relative;
+	top: -10vh;
+}
+#hand{
+	width: 90%;
+}
+#ear{
+	position: relative;
+	width: 55%;
+	top: -40vh;
+}
