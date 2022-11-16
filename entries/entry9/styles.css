@@ -38,9 +38,16 @@ button:hover{
 	width: 78%;
 	margin-top: -10vh;
 }
+
+#eye:hover {
+	width: 90%;
+}
 #lips{
 	width: 70%;
-	margin-top: -10vh;
+	margin-top: -8vh;
+}
+#lips:hover {
+	width: 82%;
 }
 #nose{
 	width: 60%;
@@ -48,12 +55,21 @@ button:hover{
 	position: relative;
 	top: -20vh;
 }
+#nose:hover {
+	width: 73%;
+}
 #hand{
 	width: 90%;
+}
+#hand:hover {
+	width: 95%;
 }
 #ear{
 	position: relative;
 	width: 35%;
 	top: -15vh;
 	right: -2vh;
+}
+#ear:hover {
+	width: 38%;
 }
