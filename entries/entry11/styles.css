@@ -12,6 +12,12 @@ a{
 font-family: helvetica;
 text-decoration: none;
 color: white;
+ z-index: 10;
+}
+
+a:hover{
+color: magenta;
+background-color: yellow;
 }
 
 .home{

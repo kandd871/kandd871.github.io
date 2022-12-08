@@ -1,3 +1,30 @@
+.header{
+  display: inline-flex;
+  background-color: white;
+  width: 100%;
+  justify-content: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 14px;
+}
+
+a{
+font-family: helvetica;
+text-decoration: none;
+color: lightblue;
+z-index: 4;
+}
+
+a:hover{
+	color: white;
+	background-color: lightpink;
+}
+
+.home{
+  margin-left: 590px;
+  margin-right: 590px;
+}
+
 body{
 	background-color: lightblue;
 }

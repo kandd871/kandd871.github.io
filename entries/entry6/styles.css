@@ -16,8 +16,8 @@ color: #f7f6f6;
 }
 
 header a:hover{
-color: magenta;
-background-color: yellow;
+color: darkblue;
+background-color: #f7f6f6;
 cursor: alias;
 }
 
