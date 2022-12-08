@@ -1,0 +1,61 @@
+.header{
+  display: inline-flex;
+  background-color: #00aeef;
+  width: 100%;
+  justify-content: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 14px;
+}
+
+a{
+font-family: helvetica;
+text-decoration: none;
+color: white;
+}
+
+.home{
+  margin-left: 590px;
+  margin-right: 590px;
+}
+
+
+p{
+font-family: roc-grotesk,sans-serif;
+color: #00aeef;
+font-weight: 700;
+font-style: normal;
+font-size: 18vh;
+margin-top: -2vh;
+text-align: center;
+margin-bottom: -2vh;
+}
+
+P: hover{
+	color: white;
+}
+
+
+img{
+	width: 30%;
+	position: absolute;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#ch1:hover {
+	display: none;
+}
+
+.img:hover{
+	cursor: pointer;
+}
+
+.head: hover {
+ 	color:  white;
+}
+
+
