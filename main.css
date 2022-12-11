@@ -60,5 +60,7 @@ a:hover {
 }
 
 .abandon:hover{
+  color: yellow;
   opacity: 0;
+  transition: 0.4s;
 }
