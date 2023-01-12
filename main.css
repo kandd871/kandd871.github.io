@@ -1,66 +1,190 @@
 body{
-  background-color: magenta;
+  background-color: #ff00d7;
   text-align: center;
+  color: black;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 2vh;
+  font-family: new-spirit-condensed, serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 h1{
-  font-family: Helvetica;
-  font-weight: bold;
-  font-size: 200px;
+  font-family: roc-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32vh;
   text-align: center;
-  margin: 60px;
+  line-height: 30vh;
+  margin-top: 5vh;
+  margin-bottom: 2.5vh;
 }
 
 h2{
-  font-family: helvetica;
-  font-size: 32px;
-  color: white;
-  font-weight: bold;
-  margin-bottom: 40px;
+  font-family: roc-grotesk-wide,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.8vh;
+  color: black;
+  margin-bottom: 1.3vh;
 }
 
-.subtitle{
-  font-family: Arial;
-  font-style: italic;
-  font-size: 25px;
-  text-align: left;
-  margin-top: 100px;
-}
-
-.entries{
-font-size: 50px;
-display: block;
-text-align: center;
-}
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
-  font-family: helvetica;
 }
 
-a:hover {
-  background-color: yellow;
-  color: magenta;
-  font-weight: bold;
-  padding: 10px;
+.click{
+  position: relative;
+  font-size: 8.5vh;
+  border: 1px solid black;
+  padding-left: 1.8vh;
+  padding-right: 1.8vh;
+  text-decoration: none;
+  font-family: roc-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  vertical-align: middle;
+}
+
+.click:hover{
+  border-radius: 50%;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: 2vh;
+  padding-bottom: 1.5vh;
+  background-color: black;
+  border: 0;
+  color: #ffe730;
   cursor: pointer;
 }
 
-.begin{
-  font-family: helvetica;
-  font-size: 66px;
-  border: 1px solid white;
-  padding: 10px;
-  position: relative;
+.click:hover{
+  box-shadow: 1px 1px 20px 4px rgba(255, 231, 48, 1);
 }
 
-.begin:hover{
-  border: 0;
+.list{
+  margin-top: 8.75vh;
+  postion: relative;
+  display: inline-flex;
+  width: 100%;
+  font-size: 2vh;
+  font-family: new-spirit-condensed, serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  justify-content: space-around;
 }
+
+.entries{
+  z-index: 10;
+}
+.entries> a:hover{
+  cursor: alias;
+  font-style: italic;
+  color: #ffe730;
+}
+
+.subtitle{
+  position: fixed;
+  color: black;
+}
+
+.abandon{
+  line-height: 12vh;
+  z-index: 3;
+  color: white;
+  margin-top: -5vh;
+  text-align: left;
+  opacity: 0;
+  color: #ffe730;
+  font-family: roc-grotesk-compressed,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 6vh;
+  transition: 1s;
+}
+
 
 .abandon:hover{
-  color: yellow;
-  opacity: 0;
-  transition: 0.4s;
+  opacity: 1;
+  transition: 0.8s;
 }
+
+
+@media only screen and (max-width: 1100px){
+  h1{
+    font-size: 30vh;
+    line-height: 28vh;
+  }
+  .abandon{
+    font-size: 5.5vh;
+    line-height: 10vh;
+  }
+  }
+
+  @media only screen and (max-width: 950px){
+  h1{
+    font-size: 24vh;
+    line-height: 22vh;
+  }
+  .abandon{
+    font-size: 4.5vh;
+    line-height: 17vh;
+  }
+   footer{
+    margin-top: 10vh;
+  }
+  }
+
+  @media only screen and (max-width: 800px){
+  h1{
+    font-size: 21vh;
+    line-height: 20vh;
+  }
+   .abandon{
+    margin-top: -7vh;
+    font-size: 4.5vh;
+    line-height: 12vh;
+  }
+   footer{
+    margin-top: 12vh;
+  }
+  }
+
+  @media only screen and (max-width: 700px){
+
+  h1{
+    font-size: 18vh;
+    line-height: 16vh;
+  }
+   .abandon{
+    font-size: 4.4vh;
+    line-height: 13vh;
+  }
+   footer{
+    margin-top: 16vh;
+  }
+  }
+
+  @media only screen and (max-width: 600px){
+  h1{
+    font-size: 15vh;
+    line-height: 13vh;
+  }
+   footer{
+    margin-top: 22vh;
+  }
+  }
+
+
+
+
+
