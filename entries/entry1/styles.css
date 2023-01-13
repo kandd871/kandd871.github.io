@@ -1,25 +1,125 @@
 header{
   display: inline-flex;
-  background-color: white;
-  width: 100%;
-  justify-content: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  font-size: 14px;
+  margin: .1em;
+  justify-content: space-between;
+  width: 99.8%;
+  font-size: 1.5vh;
+  font-family: roc-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cursor {
+  position: fixed;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+  left: -100px;
+  top: 50%;
+  mix-blend-mode: difference;
+  background-color: transparent;
+  z-index: 100000;
+  border: 1px solid;
+  height: 20px;
+  width: 20px;
+  transition: all 300ms ease-out;
+}
+
+body{
+  margin: 0;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+
+.body{
+  background-color: black;
+  color: white;
+}
+
+.long{
+  line-height: 1vh;
 }
 
 a{
-font-family: helvetica;
 text-decoration: none;
 color: black;
+cursor: alias;
 }
 
 a:hover{
-color: magenta;
-background-color: yellow;
+color: #ff00d7;
+background-color: #ffe730;
+text-decoration: none;
 }
 
-.home{
-  margin-left: 590px;
-  margin-right: 590px;
+.link{
+  color: white;
+}
+
+h1{
+  font-size: 4vh;
+  line-height: 2.5vh;
+}
+
+
+span{
+  position: relative;
+  top: 0px;
+}
+
+#l{ 
+  animation: floatl 7s infinite ease-in-out;
+}
+#i{ 
+  animation: floati 7s infinite ease-in-out;
+}
+#m{
+  animation: floatm 7s infinite ease-in-out;
+}
+#b{
+  animation: floatb 7s infinite ease-in-out;
+}
+#o{
+  animation: floato 7s infinite ease-in-out;
+}
+
+@keyframes floatl {
+    50% {
+        top: -1.25vh;
+    }    
+    100% { 
+        top: 0px;
+    }
+}
+@keyframes floati {
+    50% {
+        top: .8vh;
+    }    
+    100% { 
+        top: 0px;
+    }
+}
+@keyframes floatm {
+    50% {
+        top: -2.5vh;
+    }    
+    100% { 
+        top: 0px;
+    }
+}
+@keyframes floatb {
+    50% {
+        top: 2vh;
+    }    
+    100% { 
+        top: 0px;
+    }
+}
+@keyframes floato {
+    50% {
+        top: -1vh;
+    }    
+    100% { 
+        top: 0px;
+    }
 }
