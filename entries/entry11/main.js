@@ -2,6 +2,7 @@ const audio = new Audio('ch.mp3');
 var body = document.querySelector('body')
 var ch1 = document.querySelector('#ch1')
 var scream = document.querySelector('#scream')
+var section = document.querySelector('section')
 
 function hover(){
 	audio.play();
@@ -16,3 +17,4 @@ function leave(){
 
 ch1.addEventListener("mouseover", hover);
 ch1.addEventListener("mouseout", leave);
+

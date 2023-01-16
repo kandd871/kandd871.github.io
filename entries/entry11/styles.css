@@ -1,30 +1,27 @@
-.header{
+header{
   display: inline-flex;
-  background-color: #00aeef;
+  justify-content: space-between;
   width: 100%;
-  justify-content: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  font-size: 14px;
+  font-size: 1.5vh;
+  font-family: roc-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+  top: -1vh;
 }
 
-a{
-font-family: helvetica;
-text-decoration: none;
-color: white;
- z-index: 10;
+header > a{
+  position: relative;
+  color: #00aeef;
+  text-decoration: none;
 }
 
-a:hover{
-color: magenta;
-background-color: yellow;
+header > a:hover{
+  cursor: alias;
+  background-color: #62bd5e;
+  color: white;
+  border-radius: 2px;
 }
-
-.home{
-  margin-left: 590px;
-  margin-right: 590px;
-}
-
 
 p{
 font-family: roc-grotesk,sans-serif;
@@ -32,29 +29,31 @@ color: #00aeef;
 font-weight: 700;
 font-style: normal;
 font-size: 18vh;
-margin-top: -2vh;
+line-height: 15vh;
+margin-top: 4vh;
 text-align: center;
-margin-bottom: -3vh;
+margin-bottom: -1.25vh;
 }
 
 P: hover{
 	color: white;
 }
+section{
+	color: #ec008c;
+}
 
 #one{
 font-family: roc-grotesk,sans-serif;
-color: #00aeef;
 font-weight: 700;
 font-style: normal;
 font-size: 3vh;
 postion: relative;
 margin-left: 26%;
-margin-top: 5vh;
+margin-top: 7%;
 }
 
 #two{
 font-family: roc-grotesk,sans-serif;
-color: #00aeef;
 font-weight: 700;
 font-style: normal;
 font-size: 3vh;
@@ -64,8 +63,18 @@ margin-right: 29%;
 margin-top: -4.5vh;
 }
 
+#three{
+	font-family: roc-grotesk,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 3vh;
+	position: relative;
+	text-align: center;
+	margin-top: 32%;
+}
+
 img{
-	width: 30%;
+	width: 31%;
 	position: absolute;
 	justify-content: center;
 	margin-left: auto;
@@ -73,6 +82,7 @@ img{
 	left: 0;
 	right: 0;
 }
+
 
 #ch1:hover {
 	display: none;
@@ -82,8 +92,7 @@ img{
 	cursor: pointer;
 }
 
-section:hover {
- 	color:  #62bd5e !important;
- 	font-style: italic R!important;
+.change{
+	color: #62bd5e !important;
 }
 

@@ -1,34 +1,37 @@
 
+
 header{
   display: inline-flex;
-  background-color: #323a4c;
+  justify-content: space-between;
   width: 100%;
-  justify-content: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  font-size: 14px;
+  font-size: 1.5vh;
+  top: -1.15vh;
+  position: relative;
+  font-family: roc-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  mix-blend-mode: difference;
 }
 
 a{
-font-family: helvetica;
-text-decoration: none;
-color: #cec5af;
+  position: relative;
+  color: #eae2db;
+  text-decoration: none;
 }
 
 a:hover{
-color: #323a4c;
-background-color: #cec5af;
-}
-
-.home{
-  margin-left: 590px;
-  margin-right: 590px;
+  cursor: alias;
+  background-color: #eae2db;
+  color: magenta;
+  border-radius: 2px;
 }
 
 body{
 	text-align: center;
 	font-family: impact;
-	background-image: url('flag1.jpeg');
+	background-image: url('flag2.png');
+	background-size: 1450px;
+	background-repeat: repeat;
 }
 
 
@@ -36,17 +39,33 @@ h1 {
 	font-family: impact;
 	font-size: 11vw;
 	margin-bottom: -10vw;
-	margin-top: 1vw;
-	color: white;
-	mix-blend-mode: exclusion;
+	margin-top: -.5vw;
+	color: magenta;
+	mix-blend-mode: difference;
+	animation: color 2s step-end infinite ;
 }
 
 h2{
-	font-size: 1.25vw;
-	color: white;
-	bottom: -14.5vh;
+	font-size: 1.75vw;
+	color: black;
+	bottom: -15vh;
 	position: relative;
+	margin-bottom: 3vh;
+	font-style: italic;
+	mix-blend-mode: difference;
+	animation: color2 6s step-start infinite ;
+}
+
+.gun{
+	color: magenta;
 	mix-blend-mode: exclusion;
+	position: relative;
+	display: inline-block;
+}
+
+.text{
+	background-color: white;
+	padding: 1vh;
 }
 .graphics{
 	display: flex;
@@ -91,6 +110,19 @@ h2{
 	display: inline-block;
 }
 
+
+
+@keyframes color{
+		50%{
+		color: white;
+	}
+}
+@keyframes color2{
+		50%{
+		color: magenta;
+	}
+}
+
 @media screen and (max-width:  1400px){
 	.gun{
 		opacity: 0;
@@ -99,6 +131,10 @@ h2{
 	.gunimg{
 	position: relative;
 	left: -30vw;
+}
+
+h1{
+	color: white;
 }
 }
 
@@ -135,6 +171,7 @@ h2{
 		opacity: 0;
 	}
 }
+
 
 @media screen and (max-width: 1260px){
 	.two {

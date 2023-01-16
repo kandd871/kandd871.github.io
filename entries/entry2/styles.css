@@ -1,8 +1,9 @@
 header{
   display: inline-flex;
   justify-content: space-between;
-  width: 100%;
+  width: 99%;
   font-size: 1.5vh;
+
   font-family: roc-grotesk,sans-serif;
   font-weight: 700;
   font-style: normal;
