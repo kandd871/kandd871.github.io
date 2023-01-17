@@ -1,32 +1,49 @@
-.header{
+header{
+	z-index: 100;
   display: inline-flex;
-  background-color: white;
+  justify-content: space-between;
   width: 100%;
-  justify-content: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  font-size: 14px;
+  font-size: 1.5vh;
+  top: -.9vh;
+  position: relative;
+  font-family: roc-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 a{
-font-family: helvetica;
-text-decoration: none;
-color: lightblue;
-z-index: 4;
+  position: relative;
+  color: white;
+  text-decoration: none;
 }
 
 a:hover{
-	color: white;
-	background-color: lightpink;
+  cursor: alias;
+  background-color: #b442fd;
+  color: #0e3521;
+  border-radius: 2px;
 }
 
-.home{
-  margin-left: 590px;
-  margin-right: 590px;
-}
 
 body{
-	background-color: lightblue;
+	background-color: #0e3521;
+}
+
+.text{
+	font-family: "Helvetica";
+	font-weight: 700;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	word-spacing: 7.5vw;
+	font-size: 6.5vh;
+	color: transparent;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	z-index: 10000;
+	-webkit-text-stroke: .75px white;
 }
 
 .video {
@@ -62,41 +79,48 @@ button:hover{
 }
 
 #eye{
-	width: 78%;
-	margin-top: -10vh;
+	width: 79%;
+	margin-top: -14vh;
 }
 
 #eye:hover {
-	width: 90%;
+	width: 92%;
+	margin-top: -16vh;
 }
 #lips{
-	width: 70%;
-	margin-top: -8vh;
+	width: 67%;
+	margin-top: -5vh;
 }
 #lips:hover {
-	width: 82%;
+	width: 76%;
+	margin-top: -7vh;
 }
 #nose{
 	width: 60%;
 	padding-top: 4vh;
 	position: relative;
-	top: -20vh;
+	top: -28vh;
+	left: -7vh;
 }
 #nose:hover {
 	width: 73%;
 }
 #hand{
 	width: 90%;
+	position: relative;
+	left: -1vh;
 }
 #hand:hover {
-	width: 95%;
+	width: 100%;
+	top: -6vh;
 }
 #ear{
 	position: relative;
-	width: 35%;
-	top: -15vh;
-	right: -2vh;
+	width: 33%;
+	top: -23vh;
+	right: -4vh;
 }
 #ear:hover {
-	width: 38%;
+	width: 40%;
+	top: -29vh;
 }
