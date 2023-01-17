@@ -1,7 +1,17 @@
-function error() {
-  alert("ERROR. TRY AGAIN.");
-}
+const audio = new Audio("audio.mp3");
+var body = document.querySelector("body")
+let colors = ["magenta", "black", "lightblue", "lightpink", "#42280E", "turquoise", "lightgreen", "rebeccapurple"];
 
+
+function error() {
+  audio.play();
+  alert("ERROR. TRY AGAIN.");
+
+let randIndex = Math.floor(Math.random() * colors.length);
+let randColor = colors[randIndex];
+body.style.backgroundColor = randColor;
+
+}
 
 document.querySelector('.btn1').addEventListener('click', showBtn1); 
 document.querySelector('.btn2').addEventListener('click', showBtn2); 

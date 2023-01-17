@@ -1,31 +1,32 @@
 header{
   display: inline-flex;
-  width: 100%;
-  justify-content: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  font-size: 14px;
+  justify-content: space-between;
+  position: relative;
+  width: 99.9%;
+  font-size: 1.5vh;
+  font-family: roc-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 2.25vh;
+  top: -1vh;
 }
 
 a{
-font-family: helvetica;
-text-decoration: none;
-color: blue;
+  color: gray;
+  text-decoration: none;
 }
 
 a:hover{
-color: magenta;
-background-color: yellow;
-}
-
-.home{
-  margin-left: 590px;
-  margin-right: 590px;
+  cursor: alias;
+  background-color: magenta;
+  color: blue;
+  border-radius: 2px;
 }
 
 body{
   text-align: center;
   background-color: beige;
+  margin-top: -1vh;
 }
 button{
 font-family: bd-micronfont,sans-serif;
@@ -38,8 +39,8 @@ button:hover{
 
 .btn1{
   position: relative;
-  margin-top: 5em;
-  font-size: 3em;
+  margin-top: 29vh;
+  font-size:3.5vw;
   background-color: blue;
   color: magenta;
   padding: .25em;
@@ -52,24 +53,24 @@ button:hover{
 
 .btn2{
   position: relative;
-  margin-top: 3em;
-  margin-left: 2em;
-  font-size: 5.5em;
+  margin-top: 30vh;
+  margin-left: 15vw;
+  font-size: 6vw;
   background-color: yellow;
-  color: black;
+  color: rebeccapurple;
   padding: .25em;
 }
 
 .btn2:hover{
-  background-color: black;
+  background-color: rebeccapurple;
   color: yellow;
 }
 
 .btn3{
   position: relative;
-  top: -4.5em;
-  margin-right: 2em;
-  font-size: 4em;
+  top: -35vh;
+  margin-right: 2vw;
+  font-size: 4.5vw;
   background-color: orange;
   color: lightblue;
   padding: .25em;
@@ -82,9 +83,9 @@ button:hover{
 
 .btn4{
   position: relative;
-  top: -7.15em;
-  left: 8em;
-  font-size: 6em;
+  top: -80vh;
+  right: -55vw;
+  font-size: 6.5vw;
   background-color: green;
   color: lightpink;
   padding: .25em;
@@ -97,24 +98,24 @@ button:hover{
 
 .btn5{
   position: relative;
-  top: -4.75em;
-  right: -5em;
-  font-size: 8em;
-  background-color: purple;
-  color: darkbrown;
+  top: -73vh;
+  right: -45vw;
+  font-size: 9vw;
+  background-color: mediumpurple;
+  color: #42280E;
   padding: .25em;
 }
 
 .btn5:hover{
-  background-color: darkbrown;
-  color: purple;
+  background-color: #42280E;
+  color: mediumpurple;
 }
 
 .btn6{
   position: relative;
-  top: -8em;
-  margin-left: 1em;
-  font-size: 8.5em;
+  top: -135vh;
+  margin-left: 10vw;
+  font-size: 10.25vw;
   background-color: red;
   color: turquoise;
   padding: .25em;
@@ -127,12 +128,12 @@ button:hover{
 
 .btn7{
   position: relative;
-  top: -5em;
-  margin-left: 1.5em;
-  font-size: 11em;
+  top: -110vh;
+  margin-left: 20vw;
+  font-size: 13.5vw;
   background-color: gray;
   color: lightgreen;
-  padding: .25em;
+  padding: .22em;
 }
 
 .btn7:hover{
@@ -142,9 +143,9 @@ button:hover{
 
 .btn8{
   position: relative;
-  top: -6em;
-  right: -.1em;
-  font-size: 14.75em;
+  top: -180vh;
+  right: -.5vw;
+  font-size: 16.75vw;
   background-color: white;
   color: black;
   padding: .25em;
@@ -155,32 +156,36 @@ button:hover{
   color: white;
 }
 
-@media only screen and (max-width: 1400px){
+
+@media only screen and (max-width: 600px){
   .btn1{
-    font-size: 2em;
+    bottom: -15vh;
   }
   .btn2{
-    font-size: 3em;
+    bottom: -10vh;
   }
   .btn3{
-    font-size: 4em;
+    bottom: -15vh;
   }
   .btn4{
-    font-size: 5em;
+    top: -79vh;
+    left: 3vw;
   }
   .btn5{
-    font-size: 6em;
+    bottom: -70vh;
   }
   .btn6{
-    font-size: 8em;
+    top: -40vh;
   }
   .btn7{
-    font-size: 9em;
+    top: -85vh;
   }
   .btn8{
-    font-size: 10em;
+    top: -100vh;
   }
 
 }
+
+
 
 
