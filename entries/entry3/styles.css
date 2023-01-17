@@ -1,37 +1,40 @@
-.header{
-  display: inline-flex;
-  background-color: #2f2f2f;
-  width: 100%;
-  justify-content: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  font-size: 14px;
-}
-
-a{
-font-family: helvetica;
-text-decoration: none;
-color: white;
-}
-
-.home{
-  margin-left: 590px;
-  margin-right: 590px;
-}
-
-a:hover{
-    color: #2f2f2f;
-    background-color: #f9f7f1;
-}
-
 body{
     font-family: black-beard,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 28px;
+    font-size: 1.9vw;
     color: #2f2f2f;
     background-color: #f9f7f1;
+    position: relative;
+    margin: 0 auto;
+}
 
+header{
+  display: inline-flex;
+  justify-content: space-between;
+  position: relative;
+  width: 99%;
+  font-size: 1.5vh;
+  font-family: roc-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 3vh;
+  top: -2.6vh;
+  margin-left: .5vw;
+  margin-right: .5vw;
+}
+
+a{
+  color: #2f2f2f;
+  background-color: #f9f7f1;
+  text-decoration: none;
+}
+
+a:hover{
+  cursor: alias;
+  background-color: #2f2f2f;;
+  color: #f9f7f1;
+  border-radius: 2px;
 }
 
 p{
@@ -42,32 +45,31 @@ section{
     text-align: justify-all;
     text-justify: inter-word;
     text-align: center;
-    font-size: 28px;
+    font-size: 1.95vw;
 }
 .heresy{
     font-family: amador,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 92px;
-    padding-bottom: 30px;
+    font-size: 6.35vw;
+    padding-bottom: 2.25vh;
 }
 .welcome { 
     font-family: franklin-gothic-atf,sans-serif;
     font-weight: 700;
-    font-size: 150px;
+    font-size: 10.5vw;
     font-style: normal;
     display: block;
-    margin-bottom: 60px;
+    margin-bottom: 7vh;
 
 }
 
 .welcome:after{
     border-bottom: 1px solid #2f2f2f;
     content: '';
-    width: 1050px;
-    height: 10px;
     display: block;
     margin: 0 auto;
+    width: 72vw;
 }
 
 
@@ -78,10 +80,10 @@ section{
 }
 
 .subhead{
-    padding: 10px;
+    padding: 1.2vh;
     position: relative;
   max-width: 100%;
-  height:  35px;
+  height: 3.65vh;
   overflow-x: hidden;
 }
 .track{
@@ -118,14 +120,13 @@ section{
     flex-flow: column wrap;
     align-items: flex-end;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 2.7vh;
 }
 
 .item1, .item2{
-    font-size: 21px;
-    width: 500px; 
+    font-size: 1.45vw;
+    width: 35vw; 
     margin: auto; 
-
 }
 
 
@@ -133,14 +134,16 @@ section{
     font-family: 'Playfair Display', serif;
     font-weight: 800;
     font-style: italic;
-    font-size: 56px;
+    font-size: 5vw;
     text-transform: uppercase;
+    position: relative;
+    top: -3vh;
     
 }
 
 .s1,#life{
    font-weight: 400;
-    font-size: 18px;
+    font-size: 1.25vw;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
     font-family: 'Playfair Display', serif; 
@@ -148,15 +151,15 @@ section{
 }
 
 #life{
-    font-size: 24px;
+    font-size: 1.65vw;
     font-style: italic;
 }
 
 .s1:before{
     border-top: 1px solid #2f2f2f;
     content: '';
-    width: 100px;
-    height: 7px;
+    height: .75vh;
+    width: 8vw;
     display: block;
     margin: 0 auto;
 }
@@ -164,8 +167,8 @@ section{
 .s1:after{
     border-bottom: 1px solid #2f2f2f;
     content: '';
-    width: 100px;
-    height: 10px;
+    width: 8vw;
+    height: .75vh;
     display: block;
     margin: 0 auto;
 }
@@ -173,59 +176,64 @@ section{
 .h2{
     font-family: 'Playfair Display', serif;
     font-weight: 500; 
-    font-size: 42px; 
+    font-size: 3vw; 
+    border-bottom: 1px solid #2f2f2f;
 }
 
 .h3{
     font-family: 'Playfair Display', serif;
     font-weight: 450; 
-    font-size: 42px;   
+    font-size: 2.9vw;   
     font-style: italic;
     border-bottom: 1px solid;
+    position: relative;
 
 }
 
 .h4 {
     font-family: franklin-gothic-atf,sans-serif;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 2.75vw;
+    position: relative;
     font-style: normal;
-    display: block;
-    
+    display: block;  
     color: #f9f7f1;
     background-color: #2f2f2f; 
+    margin-top: 7vh;
+    margin-bottom: 7vh;
 }
 
 .h5{
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     font-style: italic;
-    font-size: 54px;
+    font-size: 3.5vw;
+    top: -3vh;
     text-transform: uppercase;
     position: relative;
-    top: -20px;
 }
 
 
 img{
-    width: 500px;
+    width: 100%;
 
 }
 
 
 #malice{
-    font-size: 36px;
+    font-size: 2.75vw;
     font-style: italic;
-    padding-bottom: 20px;
+    padding-bottom: 2.7vh;
+    padding-left: .75vw;
+    padding-right: .75vw;
 }
 
-#conscious{
-    padding-bottom: 40px;
+#conscious, #deny{
+    padding-bottom: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
-#deny{
-    padding-bottom: 40px;
-}
 
 #img1 {
 border: 2.5px solid;
@@ -235,9 +243,9 @@ border-style: double;
 }
 
 #img2{
-    padding-top: 50px;
+    padding-top: 6.7vh;
     border-right: 1px solid #2f2f2f;
-    padding-right: 100px;
+    padding-right: 13.5vh;
 }
 
 .border{
@@ -249,70 +257,140 @@ border-style: double;
 }
 
 #souls, #conscious{
-    font-size: 24px;
+    font-size: 1.7vw;
 }
 #cap{
-    margin-top: -20px;
+    margin-top: -2.7vh;
     text-align: left;
-    font-size: 28px;
-    margin-bottom: -20px;
+    font-size: 2vw;
+    margin-bottom: -2.7vh;
 }
-#crime{
+#crime, #cap{
+left: 7vw;
+position: relative;
 font-style: italic;
-font-size: 26px;
+font-weight: 800;
+font-size: 1.8vw;
 text-align: left;
 }
+
 #y{
-    font-size: 30px;
+    font-size: 2.1vw;
 }
 #church{
-    font-size: 24px;
-    margin-top: -60px;
+    font-size: 1.7vw;
+    margin-top: -5vh;
+    margin-bottom: 4.5vh;
+
 }
 #church:after{
     border-bottom: 1px solid #2f2f2f;
     content: '';
-    width: 100px;
-    height: 12px;
+    width: 6.95vw;
+    height: 1.5vh;
     display: block;
     margin: 0 auto;
 }
 #church:before{
     border-bottom: 1px solid #2f2f2f;
     content: '';
-    width: 100px;
-    height: 10px;
+    width: 6.95vw;
     display: block;
     margin: 0 auto;
-    margin-bottom: 12px;
+    margin-top: -8vh;
+    margin-bottom: 1.5vh;
 
 }
 #burn{
    font-family: franklin-gothic-atf,sans-serif;
-    font-weight: 200;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 2.5vw;
     font-style: normal;
     display: block;
-    margin: 15px;
+    margin: 1.8vh;
     color: #f9f7f1;
     background-color: #2f2f2f; 
     padding-bottom: 5px;
     padding-top: 5px;
 }
 #life{
-margin-bottom: -2px;
+margin-bottom: .7vh;
 }
 
 
 .so{
     border: 2px solid #2f2f2f;
-    padding: 5px;
-    padding-top: 0px;
+    padding: 1vw;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.down{
+    width: 100%;
+    position: relative;
+    border: 0;
+    opacity: 1;
+    margin: 0 auto;
 }
 
 .fire{
     background: url(fire.gif) repeat-x;
-    height: 200px;
+    height: 24vh;
+    width: 100%;
+    position: absolute;
+}
+
+.one{
+bottom: -11vh;
+    left: 0;
+}
+.two{
+   top: -7vh;
+}
+.three{
+    top: 0vh;
+}
+.four{
+    top: 8vh;
+}
+.five{
+    top: 15vh;
+}
+.six{
+    top: 22vh;
+}
+.seven{
+    top: 30vh;
+}
+.eight{
+    top: 38vh;
+}
+.nine{
+    top: 45vh;
+}
+.ten{
+    top: 51vh;
+}
+.eleven{
+    top: 57vh;
+}
+.twelve{
+    top: 63vh;
+}
+.thirteen{
+    top: 69vh;
+}
+.fourteen{
+    top: 78vh;
+}
+.fifteen{
+    top: 82vh;
+}
+
+.reveal{
+    opacity: 1;
+    transition: 2s;
 }
 
 

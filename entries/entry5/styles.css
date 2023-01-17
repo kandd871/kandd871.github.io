@@ -110,7 +110,13 @@ h2{
 	display: inline-block;
 }
 
-
+.cite{
+	font-family: 'Helvetica';
+	color: white;
+	mix-blend-mode: difference;
+	text-align: right;
+	font-size: 1.5vh;
+}
 
 @keyframes color{
 		50%{
