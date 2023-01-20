@@ -1,493 +1,262 @@
-
 header{
-  background-color: darkblue;
-  width: 100%;
-  justify-content: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  font-size: 14px;
-  margin-bottom: 2vh;
+  z-index: 100;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 99%;
+  font-size: 1.5vh;
+  position: relative;
+  font-family: roc-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-header a{
-font-family: helvetica;
-text-decoration: none;
-color: #f7f6f6;
+a{
+  position: relative;
+  color: #231f20;
+  text-decoration: none;
 }
 
-header a:hover{
-color: darkblue;
-background-color: #f7f6f6;
-cursor: alias;
-}
-
-.home{
-  margin-left: 590px;
-  margin-right: 590px;
+a:hover{
+  cursor: alias;
+  background-color: #231f20;
+  color: white;
+  border-radius: 2px;
 }
 
 body{
-	text-align: center;
-	color: darkblue;
-	background-color: #f7f6f6 ;
-}
+  text-align: center;
+  background-color: #ef3c29;
+  margin: 0 auto;
+  color: #231f20;
+  width: 100%;
 
-.banner{
-  width: 45%;
-  margin-top: -3vh;
-}
-
-.title{
-  width: 45%;
-  position: relative;
 }
 
 .container{
-	border: 4px darkblue solid;
-	border-style: double;
-}
-
-h1{
-font-family: nautica,sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 30vh;
-margin-top: -15vh;
-}
-
-h2{
-font-family: ltc-bodoni-175,serif;
-font-weight: 1;
-font-style: normal;
-font-size: 5vh;
-text-transform: uppercase;
-margin-top: -12vh;
-margin-bottom: 10vh;
-}
-
-span{
-font-family: ltc-caslon-pro,serif;
-font-weight: 400;
-font-style: italic;
-font-size: 7vh;
-}
-
-.body{
-margin-left: 13vh;
-margin-right: 13vh;
-justify-content: center;
+  justify-content: center;
+  border: 2px dotted #231f20;
+  margin: 15px;
+  width: 97.8%;
 }
 
 p{
-font-family: articulat-heavy-cf,sans-serif;
-font-weight: 1000;
+font-family: quincy-cf,serif;
+font-weight: 100;
 font-style: normal;
-font-size: 36px;
-margin: 7vh;
-position: relative;
-display: flex;
-align-items: top;
 }
 
-.one img{
-	width: 20%;
-	height: 20%;
-	position: relative;
-	transition: transform .3s;
-	padding: 0.5vh;
+.title{
+  margin-top: 3vh;
+  margin-bottom: -1vh;
+}
+#head{
+  width: 42%;
+  justify-content: center;
+  position: relative;
 }
 
-.container a{
-	text-decoration: none;
-	color: darkblue;
-	cursor: alias;
-	justify-content: center;
-	background-color: white;
-	border-radius: 30%;
+.line{
+    border-bottom: 3px dotted #213f20;
+    width: 20%;
+    justify-content: center;
+    position: relative;
+    display: inline-flex;
+    margin-bottom: 3vh;
 }
 
-.container a:hover{
-	background-color: darkblue;
-	border: 10px solid darkblue;
-	border-radius: 50%;
-	color: white;
-	text-decoration: underline;
-	text-decoration-style: dotted;
+h1{
+  margin-top: 10vh;
+  font-family: bd-supper,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.5vw;
+  border-radius: 50%;
+  border: 1px solid #231f20;
+  padding: 10px;
+  margin: 20px;
 }
 
-.appetizer img:hover{
-	transform: scale(2.75);
-	z-index: 4;
-	cursor: pointer;
+.spoon{
+  margin-top: -2vh;
+  display: table;
+  text-align: left;
+  margin-bottom: 20vh;
+}
+#spoon{
+  width: 100%;
+}
+#p1{
+  position: relative;
+  width: 68%;
+  margin-bottom: -10vh;
+  margin-left: 24vw;
+  text-align: right;
+}
+#p2{
+  position: relative;
+  width: 67%;
+  margin-bottom: 2vh;
+  margin-left: 4vw;
+  text-align: left;
+  margin-top: -42vh;
+}
+#p3{
+  position: relative;
+  width: 30%;
+  text-align: right;
+  margin-top: -35.5vh;
+  margin-left: 75vw;
+  margin-bottom: -7vh;
+}
+#p4{
+  width: 29%;
+  margin-top: -91vh;
+  margin-bottom: 12vh;
+  margin-left: 2vw;
+  text-align: left;
+}
+#p5{
+  width: 25%;
+  margin-top: -4vh;
+  margin-bottom: 17vh;
+  margin-left: 70vw;
+  text-align: right;
 }
 
-.one, .two{
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+.entrees{
+  margin-bottom: 5vh;
 }
 
-#one{
-	width: 20%;
-	bottom: -3vh;
+.knife{
+  text-align: right;
+  margin-top: 0vh;
+  margin-bottom: 27vh;
+}
+#knife{
+  width: 100%;
+}
+.desserts{
+  margin-top: ;
 }
 
-#two{
-	width: 17%;
-	bottom: -5vh;
+#fork{
+  width: 100%;
+  margin-top: 9vh;
+}
+.drinks{
+  margin-top: 30vh;
+}
+.plate{
+  text-align: left;
+}
+#plate{
+  width: 100%;
+  margin-top: -10vh;
 }
 
-#three{
-	width: 22%;
+.imgs1{
+  position: relative;
+  margin-top: -52vh;
+  margin-bottom: 10vh;
+  margin-left: 21vw;
 }
-
-#four{
-	width: 27%;
+#rice{
+  width: 5%;
+  position: relative;
 }
-
-#five{
-	width: 21%;
-	bottom: -13vh;
+#cheetos{
+  width: 5%;
+  position: relative;
 }
-
-#six{
-	width: 27%;
-	top: -7vh;
+#pringles{
+  width: 5%;
+  position: relative;
 }
-
-#seven{
-	top: -3vh;
-	left: -2vh;
+#pop{
+  width: 6%;
+  position: relative;
 }
-
-#eight{
-	width: 26%;
-	bottom: -3vh;
+#fries{
+  width: 6%;
+  position: relative;
 }
-
-.two {
-	padding: 4vh;
-	margin-right: 50vh;
-	margin-left: 50vh;
-	margin-top: -5vh;
-	margin-bottom: -10vh;
+#froot{
+  width: 7%;
+  position: relative;
 }
-
-.entree{
-	perspective: 500px;
-	position: relative;
-}
-
 #foie{
-	top: -10vh;
+  width: 7%;
+}
+#oyster{
+  width: 7%;
+}
+#steak{
+  width: 11%;
+}
+#frittata{
+  width: 10%;
+}
+#burger{
+  width: 8%;
 }
 
-#beef{
-	top: -18vh;
-}
-
-#cav{
-	top: -27vh;
-}
-
-#sla{
-	top: -33vh;
-}
-
-
-.card {
-  height: 400px;
-  width: 470px;
-  left: -16vh;
+.imgs2{
   position: relative;
-  transition: .5s all ease-out;
-  transform: rotateY(0) scale(1);
+  margin-top: -32vh;
+  margin-bottom: 15vh;
+  margin-right: 15vw;
 }
 
-.hover-area:hover .card {
-    transform: rotateY(.5turn) scale(1);
-}
-
-
-.card > div {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-
-}
-
-.cardfront1 {
-background: url('oyster.png');
-background-size: contain;
-transition: .4 all linear;
-}
-
-
-.cardback1 {
-  opacity: 0;
-  transition-delay: .17s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: rotateY(.5turn);
-  background: url('plate1.png');
-  background-size: contain;
-}
-
-.hover-area:hover .cardback1 {
-  opacity: 1;
-  transition-delay: .17s;
-}
-
-.cardfront2 {
-background: url('foie.png');
-background-size: contain;
-background-repeat: no-repeat;
-transition: .4 all linear;
-}
-
-
-.cardback2 {
-  opacity: 0;
-  transition-delay: .17s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: rotateY(.5turn);
-  background: url('plate2.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.hover-area:hover .cardback2 {
-  opacity: 1;
-  transition-delay: .17s;
-}
-
-.cardfront3 {
-background: url('steak.png');
-background-size: contain;
-background-repeat: no-repeat;
-transition: .4 all linear;
-}
-
-
-.cardback3 {
-  opacity: 0;
-  transition-delay: .17s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: rotateY(.5turn);
-  background: url('plate3.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.hover-area:hover .cardback3 {
-  opacity: 1;
-  transition-delay: .17s;
-}
-
-.cardfront4 {
-background: url('frittata.png');
-background-size: contain;
-background-repeat: no-repeat;
-transition: .4 all linear;
-}
-
-
-.cardback4 {
-  opacity: 0;
-  transition-delay: .17s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: rotateY(.5turn);
-  background: url('plate4.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.hover-area:hover .cardback4 {
-  opacity: 1;
-  transition-delay: .17s;
-}
-
-.cardfront5 {
-background: url('burger.png');
-background-size: contain;
-background-repeat: no-repeat;
-transition: .4 all linear;
-}
-
-
-.cardback5 {
-  opacity: 0;
-  transition-delay: .17s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: rotateY(.5turn);
-  background: url('plate5.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.hover-area:hover .cardback5 {
-  opacity: 1;
-  transition-delay: .17s;
-}
-
-
-.cardfront6 {
-background: url('wagyu.png');
-background-size: contain;
-background-repeat: no-repeat;
-transition: .4 all linear;
-}
-
-.cardback6 {
-  opacity: 0;
-  transition-delay: .17s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: rotateY(.5turn);
-  background: url('plate6.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.hover-area:hover .cardback6 {
-  opacity: 1;
-  transition-delay: .17s;
-}
-
-.dessert{
-	position: relative;
-	top: -20vh;
-  margin-bottom: -5vh;
-}
-
-
-.three img{
-	height: 235px;
-	justify-content: center;
-}
-
-.static {
-position: absolute;
-background: #f7f6f6;
-}
-
-.static:hover {
-  opacity:0;
-  cursor: pointer;
-}
-
-
-#section{
-  display: flex;
+.imgs3{
   position: relative;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  bottom: -3vh;
+  margin-top: -35vh;
+  margin-bottom: 15vh;
+  margin-left: -12vw;
 }
 
-.entree, .bev{
-  width: 50%;
- position: relative;
+#sun, #g{
+  width: 6%;
 }
-
-.b{
-  border-left: solid 2px #000085;
-}
-
-.bev img{
-  width: 50%;
-  padding-left: 10vh;
-  padding-right: 10vh;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-}
-
-#i, #i2{
-  width: 55%;
-}
-
-#l, #l2{
-  width: 60%;
-}
-
-
-#j, #j2{
-  width: 45%;
-}
-#m, #m2{
-  width: 56%;
-}
-
-.fr{
-  position: absolute;
-  background-color: #f7f6f6;
-}
-.fr:hover{
-opacity: 0;
-cursor: pointer;
-}
-
-@media only screen and (max-width: 1400px){
-  .three img{
-        width: 10%;
-        height: 10%;
-}
-
-#section{
-  flex-direction: column;
-}
-
-section{
-    padding-bottom: -20vh;
-}
-
-.bev, .entree{
-  width: 100%;
-  left: 0;
-  border: 0px;
-}
-
-#i, #l,#m, #j,#k{
-  opacity: 0;
-}
-
-#i2, #l2,#m2, #j2,#k1{
- width: 30%;
-}
-
-.b{
-  border-width: 0px;
-}
-
-span{
-  font-size: 38px;
-}
-
-h2{
-  font-size: 2em;
-}
-.static{
-  opacity: 0;
-}
-
-.dessert{
+#g{
   position: relative;
-  top: 0vh;
-  margin-bottom: 0vh;
+  top: -2vh;
+}
+#choc{
+  width: 10%;
+  position: relative;
+  top: vh;
+}
+#ben{
+  width: 5%;
+  position: relative;
+  bottom: -2vh;
+}
+#red{
+  width: 8%;
+}
+.imgs4{
+  position: relative;
+  margin-top: 0vh;
+  margin-bottom: 20vh;
+  margin-left: 23vw;
+}
+#y{
+  width: 8%;
+}
+#l{
+  width: 12%;
+}
+#m{
+  width: 10%;
+}
+#vodka{
+  width: 6%;
+}
+#diamond{
+  width: 13%;
 }
 
-.card{
-  left: 0;
-}
+/*.appetizer,.entrees,.desserts,.drinks{
+  border-top: 1px solid  #231f20;
+  border-top: 1px solid  #231f20;
 }
