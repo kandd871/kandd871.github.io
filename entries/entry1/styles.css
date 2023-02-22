@@ -17,10 +17,9 @@ header{
 
   left: -100px;
   top: 50%;
-  mix-blend-mode: difference;
   background-color: transparent;
   z-index: 100000;
-  border: 1px solid;
+  border: 1px solid limegreen;
   height: 20px;
   width: 20px;
   transition: all 300ms ease-out;
